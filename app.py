@@ -2,9 +2,7 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 import os.path
-import numpy as np
-import cv2
-from PIL import Image, ImageEnhance
+
 
 
 con = sqlite3.connect('db.db')
